@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>My CV</title>
+  <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/2364166b8a.js" crossorigin="anonymous"></script>
+  <link href="style.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+<div class="resume">
+   <div class="resume_left">
+     <div class="resume_profile">
+       <img src="pic.jpg" alt="profile_pic">
+     </div>
+     <div class="resume_content">
+       <div class="resume_item resume_info">
+         <div class="title">
+           <p class="bold">margarita khalikova</p>
+           <p class="regular">Junior Frontend Developer</p>
+         </div>
+         <ul>
+           <li>
+             <div class="icon">
+              <i class="fa-solid fa-location-dot"></i>
+             </div>
+             <div class="data">Saint-Petersburg, RUSSIA
+             </div>
+           </li>
+           <li>
+             <div class="icon">
+              <i class="fa-regular fa-phone"></i>
+             </div>
+             <div class="data">+79521641426
+             </div>
+           </li>
+           <li>
+             <div class="icon">
+               <i class="fas fa-envelope"></i>
+             </div>
+             <div class="data">sevost.rita@gmail.com
+             </div>
+           </li>
+         </ul>
+       </div>
+       <div class="resume_item resume_skills">
+         <div class="title">
+           <p class="bold">skill's</p>
+         </div>
+         <ul>
+          <li>
+            <div class="icon">
+              <i class="fa fa-html5"></i>
+             </div>
+            <div class="data">
+              <p>HTML</p>
+            </div>
+          </li>
+          <li>
+            <div class="icon">
+              <i class="fa-brands fa-css3-alt"></i>
+             </div>
+            <div class="data">
+              <p>CSS</p>
+            </div>
+          </li>
+          <li>
+            <div class="icon">
+              <i class="fa-brands fa-js"></i>
+             </div>
+            <div class="data">
+              <p>JS</p>
+            </div>
+          </li>
+          <li>
+            <div class="icon">
+              <i class="fa-brands fa-python"></i>
+             </div>
+            <div class="data">
+              <p>Python</p>
+            </div>
+          </li>
+        </ul>
+       </div>
+       <div class="resume_item resume_social">
+         <div class="title">
+           <p class="bold">Visit my GitHub</p>
+         </div>
+         <ul>
+           <li>
+             <div class="icon">
+              <i class="fa-brands fa-github"></i>
+             </div>
+             <div class="data">
+               <p class="semi-bold">GitHub</p>
+               <a href="https://github.com/marsevo">My GitHub</a>
+             </div>
+           </li>
+         </ul>
+       </div>
+     </div>
+  </div>
+  <div class="resume_right">
+    <div class="resume_item resume_about">
+        <div class="title">
+           <p class="bold">Summary</p>
+         </div>
+        <p>What I like the most is the ability to create something amazing and how that ability continues to grow year after year. The web is constantly changing and improving, it is always growing. What is now possible to build in the browser wasn't even thinkable 10 years ago. I love seeing an idea come to life. From a thought to something on the screen, it’s exciting journey of discovery. I believe, that my ability to learn and to gain new skills will lead me through this path of becoming a Frontend Developer.</p>
+    </div>
+      <div class="resume_item resume_education">
+      <div class="title">
+        <p class="bold">Education</p>
+         </div>
+      <ul>
+            <li>
+                <div class="date">2008 - 2014</div>
+                <div class="info">
+                     <p class="semi-bold">National Research Tomsk State University</p>
+                  <p>Faculty of Applied Mathematics and Cybernetics</p>
+                </div>
+            </li>
+        </ul>
+    </div>
+    <div class="resume_item resume_work">
+      <div class="title">
+         <p class="bold">Courses</p>
+       </div>
+      <ul>
+          <li>
+              <div class="info">
+                <p class="semi-bold">Code Basics: HTML, CSS, JS</p>
+                <p class="semi-bold">Stepic: Python programming</p>
+              </div>
+          </li>
+      </ul>
+  </div>
+  <div class="resume_item resume_code_example">
+    <div class="title">
+       <p class="bold">Code example</p>
+     </div>
+    <ul>
+        <li>
+            <div class="info">
+                 <p class="semi-bold">DESCRIPTION:</p>
+              <p>Simple, given a string of words, return the length of the shortest word(s). String will never be empty and you do not need to account for different data types.</p>
+              </div>
+            <div class="code_style">
+              <pre>
+                <code>
+        function findShort(s) {
+          let res = s.split(' ');
+          let a = Infinity;
+          for (let i = 0; i &lt; res.length; i++) {
+            a = Math.min(res[i].length, a);
+          }
+          return a;
+        }
+              </code>
+            </pre>
+          </div>
+        </li>
+    </ul>
+  </div>
+    <div class="resume_item resume_hobby">
+      <div class="title">
+           <p class="bold">Languages</p>
+         </div>
+         <div class="info">
+          <p class="semi-bold">Russian: Native</p>
+          <p class="semi-bold">English: Upper-Intermidiate</p>
+     </div>
+    </div>
+  </div>
+</div>
+</body>
+</html>
