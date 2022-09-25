@@ -44,6 +44,10 @@ DESCRIPTION: Simple, given a string of words, return the length of the shortest 
 National Research Tomsk State University, Faculty of Applied Mathematics and Cybernetics
 
 ## Courses
+Code Basics: HTML, CSS, JS
+
+Stepic: Python Programming
+
 
 
 ## Languages
