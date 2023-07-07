@@ -15,6 +15,18 @@ body {
   color: #555555;
 }
 
+footer {
+  display: flex;
+  background-color: #eaf3e6;
+  text-align: justify;
+  width: 800px;
+  height: 80px;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0px auto 50px;
+  padding: 0 25px;
+}
+
 .bold {
   font-weight: 700;
   font-size: 20px;
@@ -30,7 +42,7 @@ body {
   width: 800px;
   height: auto;
   display: flex;
-  margin: 50px auto;
+  margin: 50px auto 0px;
 }
 
 .resume .resume_left {
@@ -46,9 +58,6 @@ body {
 .resume .resume_left .resume_profile img {
   width: 100%;
   height: 100%;
-
-  
-  
   border-radius: 50%;
 }
 
@@ -64,6 +73,10 @@ body {
   color: #fff;
 }
 
+.resume .resume_left .link {
+  text-decoration: none;
+  color: #fff;
+}
 .resume .resume_left .regular {
   color: #ffffff;
 }
@@ -175,4 +188,5 @@ code {
 .resume .resume_right .resume_hobby {
   font-family: 'Courier New', Courier, monospace;
 }
+
 
